@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: #267A7A;
+}
+footer {
+position: absolute;
+width: 1440px;
+height: 69px;
+left: 0px;
+top: 0px;
+background: #FFB600;
+}
+/* Навигация --->Начало<--- */
+.logo {
+position: absolute;
+width: 72px;
+height: 72px;
+left: -6px;
+top: -3px;
+cursor: pointer;
+pointer-events: none;
+-webkit-user-select: none;
+}
+.About{
+position: absolute;
+width: 60px;
+height: 18px;
+left: 86px;
+top: 24px;
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #000000;
+text-decoration: none;
+}
+.Comments{
+position: absolute;
+width: 76px;
+height: 18px;
+left: 214px;
+top: 24px;
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #000000;
+text-decoration: none;
+}
+.Order{
+position: absolute;
+width: 118px;
+height: 18px;
+left: 337px;
+top: 24px;
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #000000;
+text-decoration: none;
+}
+.mail{
+position: absolute;
+width: 215px;
+height: 18px;
+left: 1150px;
+top: 10px;
+font-family: 'Philosopher';
+font-style: bold;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+color: #010101;
+text-decoration: none;
+}
+.phone{
+position: absolute;
+width: 298px;
+height: 18px;
+left: 1066px;
+top: 22px;
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+color: #000000;
+}
+/* Навигация --->Конец<--- */
+.Albina{
+position: absolute;
+width: 410px;
+height: 573px;
+left: 28px;
+top: 139px;
+pointer-events: none;
+-webkit-user-select: none;
+}
+.kav{
+position: absolute;
+width: 105px;
+height: 103px;
+left: 402px;
+top: 412px;
+pointer-events: none;
+-webkit-user-select: none;
+}
+.albinah1{
+position: absolute;
+width: 477px;
+height: 54px;
+left: 543px;
+top: 50px;
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 54px;
+color: #FFFFFF;
+}
+.aboutme1{
+position: absolute;
+width: 797px;
+height: 584px;
+left: 545px;
+top: 118px;
+font-family: 'Philosopher';
+font-style: italic;
+font-weight: 400;
+font-size: 35px;
+line-height: 39px;
+color: #FFFFFF;
+}
+.light{
+position: absolute;
+width: 619px;
+height: 610px;
+left: 279px;
+top: 514px;
+-webkit-user-select: none;
+}
+.bcgr_portfolio{
+position: absolute;
+width: 1445.33px;
+height: 1887px;
+left: -5.33px;
+top: 774px;
+-webkit-user-select: none;
+}
+.portfolioP{
+position: absolute;
+width: 248px;
+height: 40px;
+left: 588px;
+top: 805px;
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+color: #FFB600;
+}
+.h1porfolio{
+position: absolute;
+width: 724px;
+height: 72px;
+left: 347px;
+top: 870px;
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 72px;
+color: #267A7A;
+}
+.first_project{
+position: absolute;
+width: 536px;
+height: 45px;
+left: 107px;
+top: 1041px;
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 45px;
+color: #000000;
+}
+.info_project{
+position: absolute;
+width: 1401px;
+height: 36px;
+left: 106px;
+top: 1063px;
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+color: #000000;
+}
+.description_project{
+position: absolute;
+width: 1217px;
+height: 108px;
+left: 107px;
+top: 1132px;
+font-family: 'Philosopher';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+color: #000000;
+}
+.FirstSlide{
+position: absolute;
+width: 667px;
+height: 471px;
+left: 374px;
+top: 1326px;
+}
+.nextHover{
+position: absolute;
+width: 149px;
+height: 149px;
+left: 1271px;
+top: 1498px;
+opacity: 0%;
+transition: all 0.5s ease;
+-webkit-user-select: none;
+cursor: pointer;
+z-index: 10000;
+}
+.next{
+position: absolute;
+width: 149px;
+height: 149px;
+left: 1271px;
+top: 1498px;
+-webkit-user-select: none;
+/* cursor: pointer; */
+}
+.nextHover:hover{
+    opacity: 100%;
+    -webkit-user-select: none;
+}
